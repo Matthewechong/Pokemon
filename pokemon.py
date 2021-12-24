@@ -105,6 +105,3 @@ class Pokemon:
         fig, ax = plt.subplots()
         sns.barplot(x="Base_Stat", y="Stat_Name", data=self.getStats())
         plt.show()
-
-    def average_spAtk(self, dataFrames):
-        print(dataFrames["Base_Stat"][3])
